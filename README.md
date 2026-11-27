@@ -29,7 +29,4 @@ Ferramentas que usamos:
 
 [Clique aqui para conhecer o ExataMente](https://codepen.io/editor/cixpjpcz-the-decoder/pen/01a21a62-8987-7e8c-9371-bdc74dd76727)
 
-5. Como colocar uma Imagem A regrinha é quase idêntica a do link! A única
-diferença é que vocês vão colocar um ponto de exclamação ! bem no começo:
-Markdown
-![Texto explicando a imagem](link-da-imagem-aqui)
+![Texto explicando a imagem](https://codepen.io/editor/cixpjpcz-the-decoder/pen/01a21a62-8987-7e8c-9371-bdc74dd76727?orientation=left&panel=false&show=preview)
