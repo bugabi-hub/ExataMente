@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>ExataMente</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section id="telainicial" class="tela ativa">
+
+      <h1>ExataMente</h1>
+
+      <p>Faça uma avaliação rápida e descubra exatamente quais os conteúdos que você precisa revisar para construir uma base sólida na Matemática!</p>
+
+      <div class="card">
+
+        <div class="inform">
+          <p>Avaliação diagnóstica</p>
+        </div>
+
+        <div class="inform">
+          <p>Compreenda seus erros!</p>
+        </div>
+
+        <div class="inform">
+          <p>Tenha um aprendizado tranquilo!</p>
+        </div>
+
+      </div>
+
+      <button id="bt-inicio" class="bt-principal">Começar Avaliação</button>
+
+    </section>
+
+    <section id="tela-quiz" class="tela">
+
+      <div class="quiz">
+
+        <span id="contador-questao">Questão 1 de 14</span>
+
+        <button id="bt-sair" title="Sair da avaliação">Sair</button>
+
+      </div>
+
+      <h2 id="tpergunta">Carregando a questão...</h2>
+
+      <p>Selecione a alternativa que você considera correta.</p>
+
+      <div id="opcoes" class="lopcoes"></div>
+
+      <button id="bt-proxima" class="bt-principal" disabled>Próxima questão</button>
+
+    </section>
+
+    <section id="tresultado" class="tela">
+
+      <h1>AVALIAÇÃO CONCLUÍDA</h1>
+
+      <p>Seu resultado:</p>
+
+      <div class="placar-box">
+
+        <div class="numero-porcentagem">
+          
+          <span id="numero-final">0%</span>
+          
+          <small>de aproveitamento</small>
+        </div>
+
+        <div class="placar-detalhes">
+
+          <h2 id="mensagem-resultado">Muito bem!</h2>
+
+          <p>
+            Você acertou
+            <strong id="total-acertos">0</strong>
+            de
+            <strong id="total-questoes">14</strong>
+            questões.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="diagnostico">
+
+        <div class="titulo-secao">
+
+          <div>
+            <h3>SEU DIAGNÓSTICO</h3>
+            <p>Desempenho por conteúdo matemático.</p>
+          </div>
+
+        </div>
+
+        <div id="melhorias"></div>
+
+        <h4>Por onde começar?</h4>
+
+        <p id="orientacao-texto"></p>
+
+      </div>
+
+      <div class="gabarito">
+
+        <div class="titulo-secao">
+
+          <div>
+            <h3>REVISÃO DAS QUESTÕES</h3>
+            <p>Confira as respostas e entenda os erros!</p>
+          </div>
+
+        </div>
+
+        <div id="lista-correcao"></div>
+
+      </div>
+
+      <button id="bt-refazer" class="bt-principal">Refazer Avaliação</button>
+
+    </section>
+
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
