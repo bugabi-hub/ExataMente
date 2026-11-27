@@ -1,4 +1,5 @@
 # ExataMente
+##O que é esse projeto?
 ExataMente é um site desenvolvido pelo CodePen com o objetivo de ajudar alunos com dificuldade em matemática e ajudá-los a fortalecer o seu aprendizado na área de Ciências Exatas.
 
 
